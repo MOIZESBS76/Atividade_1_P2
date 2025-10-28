@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+*.log
+.venv/
+venv/
+
+# Docker
+*.env # Se você tiver arquivos .env com variáveis de ambiente sensíveis
+docker-compose.override.yaml # Se você usar um override para configurações locais
